@@ -19,16 +19,16 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
 @NgModule({
   declarations: [
     AppComponent,
+    DropdownDirective,
     HeaderComponent,
     RecipesComponent,
-    RecipeListComponent,
     RecipeDetailComponent,
+    RecipeEditComponent,
     RecipeItemComponent,
-    ShoppingListComponent,
-    ShoppingEditComponent,
-    DropdownDirective,
+    RecipeListComponent,
     RecipeStartComponent,
-    RecipeEditComponent
+    ShoppingEditComponent,
+    ShoppingListComponent,
   ],
   imports: [
     BrowserModule,
