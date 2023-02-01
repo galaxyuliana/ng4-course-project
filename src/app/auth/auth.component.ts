@@ -5,10 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './auth.component.html'
 })
 export class AuthComponent implements OnInit {
+  isLoginMode = true;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSwitchMode() {
+    this.isLoginMode = !this.isLoginMode;
   }
 
 }
