@@ -19,7 +19,7 @@ export class AuthService {
             'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA5r4ssAQ2xQbqIohhyDSz8Iavz9oZGifE',
             {
                 email: email,
-                passworkd: password,
+                password: password,
                 returnSecureToken: true
             }
         );
