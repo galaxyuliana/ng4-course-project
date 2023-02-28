@@ -11,7 +11,7 @@ import { RecipesComponent } from "./recipes/recipes.component";
 import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
 
 const appRoutes: Routes = [
-    { path: 'something', redirectTo: '/recipes', pathMatch: 'full' },
+    { path: '', redirectTo: '/recipes', pathMatch: 'full' },
     { path: 'recipes', component: RecipesComponent,
         canActivate: [AuthGuard],
         children: [
