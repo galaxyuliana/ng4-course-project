@@ -69,6 +69,6 @@ export class AuthComponent implements OnInit {
     const alertCmpFactory = this.componentFactoryResolver.resolveComponentFactory(
       AlertComponent
     );
-    
+    const hostViewContainerRef = this.alertHost.viewContainerRef;
   }
 }
