@@ -70,5 +70,8 @@ export class AuthComponent implements OnInit {
       AlertComponent
     );
     const hostViewContainerRef = this.alertHost.viewContainerRef;
+    hostViewContainerRef.clear();
+
+    hostViewContainerRef.createComponent(alertCmpFactory);
   }
 }
