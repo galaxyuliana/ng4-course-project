@@ -6,6 +6,8 @@ const appRoutes: Routes = [
     { path: 'recipes', loadChildren: () => 
         import('./recipes/recipes.module').then((m) => m.RecipesModule)
     }
+    // Legacy
+    // { path: 'recipes', loadChildren: './recipes/recipes.module#RecipesModule' }
 ];
 
 @NgModule({
